@@ -2,6 +2,7 @@
  * @file index.js
  * @description Express server with middleware to server stattic files
  * @requires express, express.static
+ * @author Tuan 
  */
 const express = require('express');
 const app = express();
