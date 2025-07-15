@@ -18,8 +18,8 @@ app.use(express.static('public'));
 
 // Route
 app.get(['/','/index'], (req, res) => {
-  // res.render('index'); // Render the index page
-  res.send("This is the index page")
+  res.render('index'); // Render the index page
+  // res.send("This is the index page")
 });
 
 app.listen(port, () => {
